@@ -3,56 +3,62 @@
 
 /* shared styles */
 
-.dark-2{
-    color:#474747;
+.dark-2 {
+    color: #474747;
 }
 
-.text_primary{
+.text_primary {
     color: rgb(253, 110, 10);
 }
-.btn-primary{
-border-radius: 5px;
-background: rgb(253, 110, 10);
-color: rgb(255, 255, 255);
-font-family: Open Sans;
-font-size: 20px;
-font-weight: 700;
-line-height: 27px;
-letter-spacing: 0%;
-text-align: left;
-border: none;
-padding: 18px 35px;
+
+.btn-primary {
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    padding: 18px 35px;
 }
-.section-title{
-color: rgb(24, 24, 24);
-font-family: Open Sans;
-font-size: 35px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: center;
+
+.section-title {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
 }
-.section-description{
-color: rgb(117, 117, 117);
-font-family: Open Sans;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: center;
+
+.section-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
 }
-.second-bg{
-border-radius: 10px;
-background: rgb(255, 248, 243);
+
+.second-bg {
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
 }
+
 /* nav styles */
-nav{
-    display:flex;
+nav {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 50px 230px;
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
@@ -61,19 +67,21 @@ nav ul li {
     list-style: none;
     margin-right: 51px;
 }
+
 nav li a {
     text-decoration: none;
     font-size: 20px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
 
 
 /* banner styles */
-.banner-greeting{
-    
+.banner-greeting {
+
     font-family: Open Sans;
     font-size: 45px;
     font-weight: 600;
@@ -81,61 +89,69 @@ nav ul{
     letter-spacing: 0%;
     text-align: left;
 }
-.banner-title{
+
+.banner-title {
     color: rgb(24, 24, 24);
-font-family: Open Sans;
-font-size: 85px;
-font-weight: 700;
-line-height: 116px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-.banner-img{
+
+.banner-img {
     width: 584px;
 
 }
 
-.banner{
+.banner {
     display: flex;
-    
+
     justify-content: space-between;
     margin: 0 35px 0 230px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 785px;
 }
+
 /* header */
-.header{
-    background: url(../images/developer.png),url(../images/header_bg.png);
+.header {
+    background: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
+    background-position: top left, bottom right;
 }
 
 /* main style */
-main{
-max-width: 1140px;
-margin: 0 auto;
+main {
+    max-width: 1140px;
+    margin: 0 auto;
 }
-main section{
+
+main section {
     margin-top: 130px;
     margin-bottom: 130px;
 }
 
 /* about style */
-.about{
-    padding: 130px 150px ;
+.about {
+    padding: 130px 150px;
     margin-top: 130px;
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
 }
-.item-description{
+
+.item-description {
     font-weight: 700;
 }
+
 /* skill style */
-.skill-container{
+.skill-container {
     margin: 50px auto;
     display: flex;
     justify-content: space-around;
@@ -143,15 +159,17 @@ main section{
     gap: 24px;
 
 }
-.skill{
+
+.skill {
     border-radius: 5px;
 
-box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-background: rgb(255, 255, 255);
-max-width: 267px;
-max-height: 377px;
-padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    max-width: 267px;
+    max-height: 377px;
+    padding: 30px;
 }
+
 /* .skill-title{
     padding: 30px;
 }
@@ -163,76 +181,172 @@ padding: 30px;
 } */
 
 /* resume section style */
-.resume-container{
+.resume-container {
     display: flex;
     gap: 24px;
 
 }
-.resume-column-title{
+
+.resume-column-title {
     color: rgb(71, 71, 71);
-font-family: Open Sans;
-font-size: 30px;
-font-weight: 700;
-line-height: 41px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
-.experience-title{
+.experience-title {
     color: rgb(71, 71, 71);
-font-family: Open Sans;
-font-size: 25px;
-font-weight: 700;
-line-height: 34px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
-.experience-subtitle{
-color: rgb(117, 117, 117);
-font-family: Open Sans;
-font-size: 20px;
-font-weight: 600;
-line-height: 27px;
-letter-spacing: 0%;
-text-align: left;
-}
-.experience-description{
+.experience-subtitle {
     color: rgb(117, 117, 117);
-font-family: Open Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-.btn-cv-download{
+
+.experience-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn-cv-download {
     text-align: center;
     margin-top: 50px;
 }
-footer{
+
+footer {
     padding: 130px 230px;
     display: flex;
     gap: 100px;
 }
-.footer-column{
-    text-align: left;
+
+.footer-column {
+    text-align: center;
     width: 50%;
 }
-footer input[type="text"], footer input[type="email"], footer input[type="password"], footer textarea{
-    border-radius: 5px;
 
-background: rgb(255, 255, 255);
-color: rgb(117, 117, 117);
-font-family: Open Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0%;
-text-align: left;
-display: block;
-width: 100%;
-padding: 18px 30px 18px;
-margin-bottom: 24px;
-border: none;
+footer input[type="text"],
+footer input[type="email"],
+footer input[type="password"],
+footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* responsive layout */
+@media screen and (max-width: 768px) {
+
+    nav,
+    .banner,
+    .skill-container,
+    footer {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .about-items {
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .about-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .banner-img {
+        max-width: 100%;
+
+    }
+
+    .about {
+        padding: 130px 15px;
+        margin-top: 130px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .footer-column {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    footer input[type="text"],
+    footer input[type="email"],
+    footer input[type="password"],
+    footer textarea {
+
+        width: calc(100% - 40px);
+    }
+
+
+
+    /* .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-column {
+        text-align: center;
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 130px 5px;
+
+    } */
+
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+
+    .banner-img {
+        max-width: 60%;
+
+    }
+
+
 }
